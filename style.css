@@ -28,6 +28,50 @@
     font-size: 18px;
 }
 
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+}
+.left-banner h1{
+   font-size: 50px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sign-btn{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.go-btn{
+    background-color: rgb(12, 139, 212);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 35px;
+    font-weight: bold;
+}
+
+.btn-section{
+    margin-top: 20px;
+}
+.goat{
+    font-size: 90px;
+     font-weight: bolder;
+     color: #F948B2; 
+}
+
 
 @media screen and (max-width: 576px) {
     .navbar{
@@ -42,6 +86,46 @@
     }
     .nav-right a{
         padding-top: 10px;
-
+    }
+    .banner-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .right-banner img{
+        height: 400px;
+        width: 400px;
+    }
+    .left-banner h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .goat{
+        font-size: 60px;
+    }
+    .sign-btn{
+        background-color: mediumvioletred;
+        color: white;
+        padding: 10px 25px 10px 25px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 35px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    
+    .go-btn{
+        background-color: rgb(12, 139, 212);
+        color: white;
+        padding: 10px 25px 10px 25px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 35px;
+        font-weight: bold;
+    }
+    .btn-section{
+        display: flex;
+        justify-content: space-evenly;
     }
 }
