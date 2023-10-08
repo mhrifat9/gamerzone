@@ -72,6 +72,17 @@
      color: #F948B2; 
 }
 
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+
+
+/* Responsive Layout Code  */
 
 @media screen and (max-width: 576px) {
     .navbar{
@@ -127,5 +138,13 @@
     .btn-section{
         display: flex;
         justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        justify-items: center;
+        margin-top: 30px;
     }
 }
