@@ -80,6 +80,16 @@
     margin-top: 30px;
 }
 
+.anniversary-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image{
+    margin-top: -300px;
+    position: relative;
+    left: -150px;
+}
+
 
 
 /* Responsive Layout Code  */
@@ -147,4 +157,11 @@
         justify-items: center;
         margin-top: 30px;
     }
+
+    .anniversary-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
 }
