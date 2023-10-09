@@ -90,6 +90,22 @@
     left: -150px;
 }
 
+.career-left{
+    width: 40%;
+}
+
+.career-right{
+    width: 40%;
+}
+
+.career{
+    background-color: #FF42A5;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    
+    justify-content: center;
+}
 
 
 /* Responsive Layout Code  */
