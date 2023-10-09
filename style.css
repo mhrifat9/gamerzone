@@ -103,7 +103,6 @@
     width: 100%;
     margin-top: 100px;
     display: flex;
-    
     justify-content: center;
 }
 
@@ -177,6 +176,18 @@
     .anniversary-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .career{
+        background-color: #FF42A5;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .career-right img{
+        width: 500px;
     }
     
     
